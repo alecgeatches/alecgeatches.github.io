@@ -21,7 +21,7 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    width: 120px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
@@ -175,5 +175,32 @@
       font-weight: 700;
       color: #333;
     }
+  }
+}
+
+// Testimonials
+
+.testimonial {
+  padding: 20px;
+  border-top: 3px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  h2 {
+    text-align: center;
+  }
+  .testimonial-picture {
+    width: 100px;
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    @include border-radius(100px);
+  }
+  .testimonial-details {
+    text-align: center;
+  }
+  .testimonial-content {
+    margin-top: 20px;
+    text-color: #444;
   }
 }
